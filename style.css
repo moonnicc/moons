@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F8FF; /* AliceBlue */
+    color: #1E90FF; /* DodgerBlue */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4682B4; /* SteelBlue */
+    padding: 20px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #4682B4; /* SteelBlue */
+}
+
+p {
+    line-height: 1.6;
+}
+
+#portfolio {
+    background-color: #87CEEB; /* SkyBlue */
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #4682B4; /* SteelBlue */
+    padding: 20px 0;
+    text-align: center;
+    color: #FFF;
+}
