@@ -16,6 +16,22 @@
         url('fonts/CoffeCake.woff') format('woff'),
         url('fonts/CoffeCake.ttf') format('truetype'),
         url('fonts/CoffeCake.svg#svgCoffeCake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellow Style';
+    src: url('YellowStyle.eot');
+    src: url('YellowStyle.eot?#iefix') format('embedded-opentype'),
+        url('YellowStyle.woff2') format('woff2'),
+        url('YellowStyle.woff') format('woff'),
+        url('YellowStyle.ttf') format('truetype'),
+        url('YellowStyle.svg#YellowStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
@@ -37,13 +53,7 @@ body {
     padding: 0px;
   }
   
-a{
-    font-family: CoffeCake;
-    font-weight:lighter;
-    font-size: 5em;
-  }
-
-a:link{
+  a:link{
     color:#ffffff;
     font-size:2em;
     text-shadow: 2px 2px #000000;
@@ -67,7 +77,7 @@ a:link{
 
   .contentt{
    color:white;
-    font-family: CoffeCake;
+    font-family: PSYCHO PERSONAL USE;
    text-align:center;
    text-shadow: 2px 2px #000000;
    font-size: 5em;
@@ -76,6 +86,12 @@ a:link{
   #aboutme, #skills {
     font-family: PSYCHO PERSONAL USE;
 }
+
+  a{
+    font-family: CoffeCake;
+    font-weight:lighter;
+    font-size: 5em;
+  }
 
   .rectangle{
     width:700px;
@@ -145,7 +161,7 @@ a:link{
     font-weight: bold;
     display: block;
     margin: 20px 0;
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
     color: white;
     text-shadow: 2px 2px #000000;
     transition: font-size 0.5s;
@@ -217,7 +233,7 @@ a:link{
 h4{
     color:#000000;
     text-shadow: 2px 2px white;
-    font-family: CoffeCake;
+    font-family: PSYCHO PERSONAL USE;
     font-size: 40px;
     display: inline;
     margin-right: 30px;
