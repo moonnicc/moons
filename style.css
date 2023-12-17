@@ -1,56 +1,125 @@
+@font-face {
+    font-family: 'PSYCHO PERSONAL USE';
+    src: url('fonts/PSYCHOPERSONALUSE-Regular.eot');
+    src: url('fonts/PSYCHOPERSONALUSE-Regular.eot?#iefix') format('embedded-opentype'),
+   url('fonts/PSYCHOPERSONALUSE-Regular.woff2') format('woff2'),
+   url('fonts/PSYCHOPERSONALUSE-Regular.woff') format('woff'),
+   url('fonts/PSYCHOPERSONALUSE-Regular.ttf') format('truetype'),
+   url('fonts/PSYCHOPERSONALUSE-Regular.svg#svgPSYCHOPERSONALUSE-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'CoffeCake';
+    src: url('fonts/CoffeCake.eot');
+    src: url('fonts/CoffeCake.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CoffeCake.woff2') format('woff2'),
+        url('fonts/CoffeCake.woff') format('woff'),
+        url('fonts/CoffeCake.ttf') format('truetype'),
+        url('fonts/CoffeCake.svg#svgCoffeCake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellow Style';
+    src: url('YellowStyle.eot');
+    src: url('YellowStyle.eot?#iefix') format('embedded-opentype'),
+        url('YellowStyle.woff2') format('woff2'),
+        url('YellowStyle.woff') format('woff'),
+        url('YellowStyle.ttf') format('truetype'),
+        url('YellowStyle.svg#YellowStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F0F8FF; /* AliceBlue */
-    color: #1E90FF; /* DodgerBlue */
+    background-image:url("https://i.pinimg.com/564x/9d/de/57/9dde57cdfd68cb614f4b22522ee0a914.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #4682B4; /* SteelBlue */
-    padding: 20px 0;
+.metallic{
+   font-family: PSYCHO PERSONAL USE; 
+    font-size: 4em;
+    font-weight:lighter;
+    color: #ffffff;
+    text-shadow: 3px 3px #000000;
     text-align: center;
-    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a:link{
+    color:#ffffff;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+  a:visited{
+    color:#a19c9c;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+  a:hover{
+    color:rgb(208, 198, 248);
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+  a:active{
+    color:#000000;
+    font-size:2em;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .contentt{
+   color:white;
+    font-family: PSYCHO PERSONAL USE;
+   text-align:center;
+   text-shadow: 2px 2px #000000;
+   font-size: 5em;
+  }
+ 
+  #aboutme, #skills {
+    font-family: PSYCHO PERSONAL USE;
 }
 
-header h1 {
-    margin: 0;
-}
+  a{
+    font-family: CoffeCake;
+    font-weight:lighter;
+    font-size: 5em;
+  }
 
-section {
-    padding: 40px 0;
-}
+  .rectangle{
+    width:700px;
+    height:300px;
+    background-image: url("https://i.pinimg.com/236x/d6/9d/fd/d69dfdcb9940dea81dcb43094bf06502.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid;
+    border-radius: 25px;
+    display:inline-block;
+  }
 
-h2 {
-    color: #4682B4; /* SteelBlue */
-}
-
-p {
-    line-height: 1.6;
-}
-
-#portfolio {
-    background-color: #87CEEB; /* SkyBlue */
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: #4682B4; /* SteelBlue */
-    padding: 20px 0;
-    text-align: center;
-    color: #FFF;
-}
+  p{
+    color:black;
+    font-family: CoffeCake;
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+  }
+  img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    float: left;
+  }
+   
+  #name{
+  font-family: PSYCHO PERSONAL USE;
+    font-size:40px;
+    color:white;
+    display:inline;
+    text-shadow: 2px 2px #000000;
+  }
