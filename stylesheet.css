@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'CoffeCake';
+    src: url('CoffeCake.eot');
+    src: url('CoffeCake.eot?#iefix') format('embedded-opentype'),
+        url('CoffeCake.woff2') format('woff2'),
+        url('CoffeCake.woff') format('woff'),
+        url('CoffeCake.ttf') format('truetype'),
+        url('CoffeCake.svg#CoffeCake') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Yellow Style';
+    src: url('YellowStyle.eot');
+    src: url('YellowStyle.eot?#iefix') format('embedded-opentype'),
+        url('YellowStyle.woff2') format('woff2'),
+        url('YellowStyle.woff') format('woff'),
+        url('YellowStyle.ttf') format('truetype'),
+        url('YellowStyle.svg#YellowStyle') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
