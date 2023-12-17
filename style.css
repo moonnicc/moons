@@ -16,8 +16,6 @@
         url('fonts/CoffeCake.woff') format('woff'),
         url('fonts/CoffeCake.ttf') format('truetype'),
         url('fonts/CoffeCake.svg#svgCoffeCake') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
