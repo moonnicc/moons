@@ -38,7 +38,7 @@ body {
   }
   
 a{
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
     font-weight:lighter;
     font-size: 5em;
   }
@@ -67,7 +67,7 @@ a:link{
 
   .contentt{
    color:white;
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
    text-align:center;
    text-shadow: 2px 2px #000000;
    font-size: 5em;
@@ -90,7 +90,7 @@ a:link{
 
   p, #work{
     color:black;
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
     font-size: 30px;
     text-shadow: 2px 2px white;
     transition: font-size 1s;
@@ -192,7 +192,7 @@ a:link{
     border-color: #ffffff;
     border-radius: 25px;
     color:rgb(255, 255, 255);
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
     font-size: 30px;
     text-shadow: 2px 2px rgb(0, 0, 0);
    }
@@ -217,7 +217,7 @@ a:link{
 h4{
     color:#000000;
     text-shadow: 2px 2px white;
-    font-family: PSYCHO PERSONAL USE;
+    font-family: CoffeCake;
     font-size: 40px;
     display: inline;
     margin-right: 30px;
