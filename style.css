@@ -53,7 +53,13 @@ body {
     padding: 0px;
   }
   
-  a:link{
+a{
+    font-family: CoffeCake;
+    font-weight:lighter;
+    font-size: 5em;
+  }
+
+a:link{
     color:#ffffff;
     font-size:2em;
     text-shadow: 2px 2px #000000;
@@ -86,12 +92,6 @@ body {
   #aboutme, #skills {
     font-family: PSYCHO PERSONAL USE;
 }
-
-  a{
-    font-family: CoffeCake;
-    font-weight:lighter;
-    font-size: 5em;
-  }
 
   .rectangle{
     width:700px;
