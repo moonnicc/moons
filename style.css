@@ -57,6 +57,7 @@ body {
     color:#ffffff;
     font-size:2em;
     text-shadow: 2px 2px #000000;
+    transition: color, text-shadow 1s;
   }
   a:visited{
     color:#a19c9c;
@@ -64,9 +65,9 @@ body {
     text-shadow: 2px 2px #000000;
   }
   a:hover{
-    color:rgb(208, 198, 248);
+    color:rgb(0, 0, 0);
     font-size:2em;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #ffffff;
   }
   a:active{
     color:#000000;
@@ -103,13 +104,18 @@ body {
     display:inline-block;
   }
 
-  p{
+  p, #work{
     color:black;
     font-family: CoffeCake;
     font-size: 30px;
     text-shadow: 2px 2px white;
+    transition: font-size 1s;
   }
-  img{
+
+  #work:hover{
+    font-size: 35px;
+  }
+  #profilepic{
     width:100px;
     height:100px;
     border-radius: 50%;
@@ -123,3 +129,133 @@ body {
     display:inline;
     text-shadow: 2px 2px #000000;
   }
+
+  progress[value] {
+    --color: rgb(255, 255, 255); /* the progress color */
+    --background: rgb(133, 133, 133); /* the background color */
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+  }
+  
+  label {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+    font-family: CoffeCake;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    transition: font-size 0.5s;
+  }
+
+  label:hover{
+    font-size: 40px; 
+  }
+
+  #project1, #project2, #project3, #project4{
+    display:inline-block;
+    height:600px;
+    width:300px;
+    filter: blur(1px);
+    transition: blur, width, height 1s;
+  }
+
+  #project1:hover{
+   filter:blur(0px);
+   height:610px;
+   width:310px;
+  }
+
+  #project2:hover{
+    filter:blur(0px);
+    height:610px;
+    width:310px;
+   }
+
+   #project3:hover{
+    filter:blur(0px);
+    height:610px;
+    width:310px;
+   }
+
+   #project4:hover{
+    filter:blur(0px);
+    height:610px;
+    width:310px;
+   }
+
+   .education{
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 25px;
+    color:rgb(255, 255, 255);
+    font-family: CoffeCake;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+   }
+
+   .contact{
+    background-image:url("https://i.pinimg.com/564x/6f/7b/c8/6f7bc842804c5613805470ffe9fb01fc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#instagram, #tiktok, #gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+h4{
+    color:#000000;
+    text-shadow: 2px 2px white;
+    font-family: PSYCHO PERSONAL USE;
+    font-size: 40px;
+    display: inline;
+    margin-right: 30px;
+}
+
+#email{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    transition: color, text-shadow 1s;
+}
+
+#email:hover{
+    color:#ffffff;
+    text-shadow: 2px 2px black;
+}
+
+@keyframes loading-in-animation {
+    from {filter:invert(100%); }
+    to {filter:invert(0%)}
+}
+
+body {
+    animation-name: loading-in-animation;
+    animation-duration: 4s;
+}
